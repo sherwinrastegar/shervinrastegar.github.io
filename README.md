@@ -1,4 +1,4 @@
-# Sherwin.github.io
+# shervinrastegar.github.io
 **Mechatronics Engineering Student**
 Mechatronics Engineer | Robotics • Embedded Systems • Machine Learning • Control • AI
 
