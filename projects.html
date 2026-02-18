@@ -7,34 +7,41 @@
   <link rel="stylesheet" href="assets/css/projects.css"/>
 </head>
 <body>
+  <div class="scroll-progress"></div>
 
-  <header class="projects-hero">
-    <nav class="topbar">
-      <div class="brand">Shervin Rastegar</div>
-      <div class="controls">
-        <button id="themeToggle" class="btn">Dark</button>
-        <button id="langToggle" class="btn">EN</button>
+  <header class="header">
+    <nav class="nav">
+      <div class="brand">
+        <div class="logo">SR</div>
+        <div class="brand-text">
+          <span id="brandName">Shervin Rastegar</span>
+          <small id="brandRole">Mechatronics Engineer</small>
+        </div>
+      </div>
+      <div class="nav-actions">
+        <button id="themeToggle" class="btn glass">Dark</button>
+        <button id="langToggle" class="btn ghost">EN</button>
+        <a class="btn primary" href="index.html">بازگشت</a>
       </div>
     </nav>
-    <h1>پروژه‌ها</h1>
-    <p>گالری کامل پروژه‌ها با تصاویر، ویدیو و توضیحات</p>
   </header>
 
-  <section class="section">
-    <div id="projectsGallery" class="projects-grid"></div>
-  </section>
-
-  <section class="section">
-    <h2 class="section-title">مقالات</h2>
-    <div class="articles-grid">
-      <article class="article-card">
-        <h3>هوشمندسازی صنعتی</h3>
-        <p>نمونه‌های واقعی از پیاده‌سازی در محیط‌های صنعتی.</p>
-      </article>
+  <section class="section reveal">
+    <div class="section-title">
+      <h2 id="projectsTitle">پروژه‌ها</h2>
+      <p id="projectsDesc">گالری کامل پروژه‌ها</p>
     </div>
+    <div class="grid-3" id="projectsGallery"></div>
   </section>
 
-  <!-- Lightbox -->
+  <section class="section reveal">
+    <div class="section-title">
+      <h2 id="articlesTitle">مقالات</h2>
+      <p id="articlesDesc"></p>
+    </div>
+    <div class="grid-3" id="articlesGrid"></div>
+  </section>
+
   <div id="lightbox" class="lightbox">
     <span class="lb-close">×</span>
     <img class="lb-img" src="" alt="">
