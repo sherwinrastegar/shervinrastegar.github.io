@@ -1,7 +1,1 @@
 @import url("style.css");
-
-.projects-hero {
-  padding: 40px 6% 60px;
-  background: linear-gradient(135deg, var(--bg), var(--bg-2));
-  text-align: center;
-}
