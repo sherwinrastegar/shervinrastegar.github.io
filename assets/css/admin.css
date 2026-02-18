@@ -1,1 +1,51 @@
+:root {
+  --bg: #0b0f1a;
+  --card: rgba(255,255,255,0.06);
+  --text: #e8ecff;
+  --muted: #9aa4c7;
+  --primary: #6c9eff;
+  --accent: #8cffcb;
+  --shadow: 0 20px 60px rgba(0,0,0,0.35);
+}
+
+* { box-sizing: border-box; }
+body {
+  font-family: "IRANSans", "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  margin: 0;
+  padding: 30px;
+}
+.container { max-width: 1000px; margin: auto; }
+.panel {
+  background: var(--card);
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+h1, h2 { margin: 0 0 16px; }
+label { display: block; margin: 10px 0; color: var(--muted); }
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.08);
+  color: var(--text);
+  border: 1px solid rgba(255,255,255,0.1);
+  outline: none;
+}
+.grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 12px; }
+button {
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  border: none;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-inline-end: 10px;
+}
+@media (max-width: 700px) {
+  .grid { grid-template-columns: 1fr; }
+}
 
