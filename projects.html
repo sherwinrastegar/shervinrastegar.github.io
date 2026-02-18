@@ -1,148 +1,44 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fa" dir="rtl" data-theme="dark">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>پروژه‌ها | جزئیات و گالری</title>
-  <link rel="stylesheet" href="assets/css/projects.css" />
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>پروژه‌ها | شروین رستگار</title>
+  <link rel="stylesheet" href="assets/css/projects.css"/>
 </head>
 <body>
-  <div class="scroll-progress" id="scrollProgress"></div>
 
-  <header class="header mini">
-    <nav class="nav">
-      <div class="brand">
-        <div class="logo">SR</div>
-        <div class="brand-text">
-          <span data-i18n="brand_name">شروین رستگار</span>
-          <small data-i18n="brand_tag">مهندس مکاترونیک | پژوهشگر دیپ‌لرنینگ</small>
-        </div>
-      </div>
-      <div class="nav-actions">
-        <a href="index.html" class="btn ghost">
-          <i class="ri-arrow-right-line"></i>
-          <span data-i18n="back_home">بازگشت</span>
-        </a>
-        <button class="btn ghost" id="langToggle">
-          <i class="ri-translate-2"></i>
-          <span data-i18n="lang_btn">EN</span>
-        </button>
-        <button class="btn ghost" id="themeToggle">
-          <i class="ri-moon-clear-line"></i>
-          <span data-i18n="theme_btn">تاریک</span>
-        </button>
+  <header class="projects-hero">
+    <nav class="topbar">
+      <div class="brand">Shervin Rastegar</div>
+      <div class="controls">
+        <button id="themeToggle" class="btn">Dark</button>
+        <button id="langToggle" class="btn">EN</button>
       </div>
     </nav>
-
-    <section class="hero">
-      <div class="hero-content reveal">
-        <h1 data-i18n="projects_page_title">گالری پروژه‌ها و جزئیات فنی</h1>
-        <p data-i18n="projects_page_desc">
-          در این صفحه می‌توانید تصاویر، ویدیوها و توضیحات کامل پروژه‌ها را مشاهده کنید.
-        </p>
-      </div>
-    </section>
+    <h1>پروژه‌ها</h1>
+    <p>گالری کامل پروژه‌ها با تصاویر، ویدیو و توضیحات</p>
   </header>
 
-  <main class="main">
-    <section class="section project-detail">
-      <div class="detail-grid">
-        <div class="detail-media reveal">
-          <div class="media-grid">
-            <div class="media-card img1"></div>
-            <div class="media-card img2"></div>
-            <div class="media-card img3"></div>
-          </div>
-          <video class="project-video" controls poster="assets/img/project-poster.jpg">
-            <source src="assets/videos/project-demo.mp4" type="video/mp4" />
-          </video>
-        </div>
+  <section class="section">
+    <div id="projectsGallery" class="projects-grid"></div>
+  </section>
 
-        <div class="detail-info reveal">
-          <h2 data-i18n="proj_detail_title">بازوی رباتیک هوشمند</h2>
-          <p data-i18n="proj_detail_desc">
-            این پروژه با ترکیب کنترل تطبیقی، بینایی ماشین و شبکه‌های عصبی عمیق توسعه داده شده است.
-            هدف، دستیابی به دقت بالا و پایداری در محیط‌های صنعتی بوده است.
-          </p>
+  <section class="section">
+    <h2 class="section-title">مقالات</h2>
+    <div class="articles-grid">
+      <article class="article-card">
+        <h3>هوشمندسازی صنعتی</h3>
+        <p>نمونه‌های واقعی از پیاده‌سازی در محیط‌های صنعتی.</p>
+      </article>
+    </div>
+  </section>
 
-          <ul class="tags">
-            <li><i class="ri-cpu-line"></i> Robotics</li>
-            <li><i class="ri-brain-line"></i> Deep Learning</li>
-            <li><i class="ri-eye-2-line"></i> Vision</li>
-          </ul>
-
-          <a class="btn primary" href="assets/files/CV.pdf" download>
-            <i class="ri-download-cloud-2-line"></i>
-            <span data-i18n="cta_cv">دانلود رزومه</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section project-list">
-      <div class="section-title reveal">
-        <h2 data-i18n="other_projects_title">سایر پروژه‌ها</h2>
-        <p data-i18n="other_projects_desc">نمونه‌های بیشتر با توضیحات مختصر</p>
-      </div>
-
-      <div class="grid-3">
-        <div class="project-card reveal tilt">
-          <div class="project-thumb p1"></div>
-          <div class="project-info">
-            <h3 data-i18n="proj2_title">سیستم تشخیص عیب</h3>
-            <p data-i18n="proj2_desc">یادگیری عمیق برای تشخیص خودکار خطا</p>
-          </div>
-        </div>
-        <div class="project-card reveal tilt">
-          <div class="project-thumb p2"></div>
-          <div class="project-info">
-            <h3 data-i18n="proj3_title">بینایی ماشین صنعتی</h3>
-            <p data-i18n="proj3_desc">تشخیص کیفیت با پردازش تصویر</p>
-          </div>
-        </div>
-        <div class="project-card reveal tilt">
-          <div class="project-thumb p3"></div>
-          <div class="project-info">
-            <h3 data-i18n="proj4_title">پلتفرم داده‌محور</h3>
-            <p data-i18n="proj4_desc">تحلیل داده برای بهینه‌سازی خطوط تولید</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section articles">
-      <div class="section-title reveal">
-        <h2 data-i18n="articles_title">مقالات</h2>
-        <p data-i18n="articles_desc">انتشارهای پژوهشی در حوزه مکاترونیک و یادگیری عمیق</p>
-      </div>
-
-      <div class="grid-3">
-        <div class="card reveal">
-          <i class="ri-article-line icon"></i>
-          <h3 data-i18n="art1_title">کنترل تطبیقی در رباتیک صنعتی</h3>
-          <p data-i18n="art1_desc">مروری بر روش‌های نوین در کنترل پیشرفته ربات‌ها</p>
-          <span class="chip">2025</span>
-        </div>
-        <div class="card reveal">
-          <i class="ri-article-line icon"></i>
-          <h3 data-i18n="art2_title">شبکه‌های عصبی عمیق در تشخیص عیب</h3>
-          <p data-i18n="art2_desc">تحلیل مدل‌های CNN برای سیستم‌های صنعتی</p>
-          <span class="chip">2024</span>
-        </div>
-        <div class="card reveal">
-          <i class="ri-article-line icon"></i>
-          <h3 data-i18n="art3_title">بینایی ماشین بلادرنگ</h3>
-          <p data-i18n="art3_desc">بهینه‌سازی تشخیص کیفیت با معماری سبک</p>
-          <span class="chip">2023</span>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <p data-i18n="footer_text">© 2026 تمام حقوق محفوظ است.</p>
-  </footer>
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <span class="lb-close">×</span>
+    <img class="lb-img" src="" alt="">
+  </div>
 
   <script src="assets/js/projects.js"></script>
 </body>
