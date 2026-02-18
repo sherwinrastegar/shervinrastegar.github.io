@@ -1,0 +1,86 @@
+{
+  "site": {
+    "name": { "fa": "شروین رستگار", "en": "Shervin Rastegar" },
+    "role": { "fa": "مهندس مکاترونیک | دیپ‌لرنینگ", "en": "Mechatronics Engineer | Deep Learning" },
+    "tagline": { "fa": "طراحی سیستم‌های هوشمند با ترکیب الکترونیک، نرم‌افزار و مکانیک", "en": "Designing intelligent systems by integrating electronics, software and mechanics" },
+    "eyebrow": { "fa": "مهندس مکاترونیک و دیپ‌لرنینگ", "en": "Mechatronics & Deep Learning" }
+  },
+  "about": {
+    "fa": "من شروین رستگار هستم؛ تمرکز من بر طراحی سیستم‌های هوشمند و یادگیری عمیق است.",
+    "en": "I’m Shervin Rastegar focused on intelligent systems and deep learning."
+  },
+  "stats": [
+    { "label": { "fa": "سال تجربه", "en": "Years Experience" }, "value": "5+" },
+    { "label": { "fa": "پروژه موفق", "en": "Projects" }, "value": "20+" },
+    { "label": { "fa": "مقاله", "en": "Articles" }, "value": "6" }
+  ],
+  "skills": [
+    { "name": "Deep Learning", "level": 85 },
+    { "name": "Computer Vision", "level": 82 },
+    { "name": "Embedded Systems", "level": 78 },
+    { "name": "Robotics", "level": 80 }
+  ],
+  "systemDesign": [
+    {
+      "title": { "fa": "ترکیب الکترونیک، نرم‌افزار و مکانیک با معماری پایدار", "en": "Electronics + Software + Mechanics with Sustainable Architecture" },
+      "desc": { "fa": "طراحی سیستم‌هایی که هم کارآمد و هم پایدار باشند.", "en": "Designing systems that are both efficient and sustainable." }
+    }
+  ],
+  "projects": [
+    {
+      "title": { "fa": "سیستم تشخیص اشیا", "en": "Object Detection System" },
+      "desc": { "fa": "پردازش تصویر با شبکه‌های عمیق برای شناسایی دقیق اشیا", "en": "Deep learning-based object detection" },
+      "thumbnail": "assets/img/project1.jpg",
+      "media": ["assets/img/project1.jpg", "assets/img/project2.jpg"],
+      "tags": ["AI", "Vision"]
+    },
+    {
+      "title": { "fa": "ربات صنعتی هوشمند", "en": "Smart Industrial Robot" },
+      "desc": { "fa": "کنترل مسیر برای اتوماسیون صنعتی", "en": "Path planning for industrial automation" },
+      "thumbnail": "assets/img/project2.jpg",
+      "media": ["assets/img/project2.jpg", "assets/img/project3.jpg"],
+      "tags": ["Robotics", "Automation"]
+    }
+  ],
+  "articles": [
+    {
+      "title": { "fa": "طراحی سیستم‌های هوشمند با رویکرد پایدار", "en": "Sustainable Intelligent Systems" },
+      "desc": { "fa": "مروری بر اصول معماری پایدار در مکاترونیک", "en": "A review of sustainable architecture in mechatronics" },
+      "link": ""
+    }
+  ],
+  "timelineProfessional": [
+    {
+      "title": { "fa": "مهندس تحقیق و توسعه", "en": "R&D Engineer" },
+      "desc": { "fa": "تمرکز بر یادگیری عمیق و سیستم‌های هوشمند", "en": "Focused on deep learning and smart systems" }
+    }
+  ],
+  "timelineEducation": [
+    {
+      "title": { "fa": "کارشناسی مهندسی مکاترونیک", "en": "B.Sc. in Mechatronics Engineering" },
+      "desc": { "fa": "تمرکز بر رباتیک و سیستم‌های هوشمند", "en": "Focus on robotics and intelligent systems" }
+    }
+  ],
+  "languages": [
+    { "name": "فارسی", "level": "Native" },
+    { "name": "English", "level": "Professional" }
+  ],
+  "ielts": {
+    "Reading": 8.5,
+    "Writing": 7.5,
+    "Listening": 8.5,
+    "Speaking": 7.0
+  },
+  "social": [
+    { "type": "telegram", "url": "#" },
+    { "type": "instagram", "url": "#" },
+    { "type": "email", "url": "#" },
+    { "type": "linkedin", "url": "#" }
+  ],
+  "sections": {
+    "projects": { "fa": "پروژه‌ها", "en": "Projects" },
+    "projectsDesc": { "fa": "گالری کامل پروژه‌ها", "en": "Full projects gallery" },
+    "articles": { "fa": "مقالات", "en": "Articles" },
+    "articlesDesc": { "fa": "منتخبی از نوشته‌ها", "en": "Selected writings" }
+  }
+}
