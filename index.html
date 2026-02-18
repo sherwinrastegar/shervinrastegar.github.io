@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>پورتفولیو | مهندسی مکاترونیک و دیپ‌لرنینگ</title>
+  <title>Shervin Rastegar | پورتفولیو مکاترونیک و دیپ‌لرنینگ</title>
   <link rel="stylesheet" href="assets/css/style.css" />
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
@@ -13,10 +13,10 @@
   <header class="header">
     <nav class="nav">
       <div class="brand">
-        <div class="logo">M</div>
+        <div class="logo">SR</div>
         <div class="brand-text">
-          <span data-i18n="brand_name">مهندس مکاترونیک</span>
-          <small data-i18n="brand_tag">پژوهشگر دیپ‌لرنینگ</small>
+          <span data-i18n="brand_name">شروین رستگار</span>
+          <small data-i18n="brand_tag">مهندس مکاترونیک | پژوهشگر دیپ‌لرنینگ</small>
         </div>
       </div>
 
@@ -37,14 +37,14 @@
     </nav>
 
     <section class="hero">
-      <div class="hero-content">
+      <div class="hero-content reveal">
         <div class="eyebrow">
           <span class="pulse-dot"></span>
           <span data-i18n="hero_eyebrow">طراحی آینده با مکاترونیک و هوش مصنوعی</span>
         </div>
 
         <h1 data-i18n="hero_title">
-          من مهندس مکاترونیک هستم و سیستم‌های هوشمند با دیپ‌لرنینگ می‌سازم
+          من شروین رستگار هستم و سیستم‌های هوشمند با دیپ‌لرنینگ می‌سازم
         </h1>
 
         <p class="hero-desc" data-i18n="hero_desc">
@@ -73,12 +73,12 @@
           </div>
           <div class="stat">
             <span class="stat-value">12</span>
-            <span class="stat-label" data-i18n="stat_tools">ابزار تخصصی</span>
+            <span class="stat-label" data-i18n="stat_skills">مهارت</span>
           </div>
         </div>
       </div>
 
-      <div class="hero-visual">
+      <div class="hero-visual reveal">
         <div class="profile-card">
           <div class="glow-ring"></div>
           <img src="assets/img/profile.jpg" alt="Profile" class="profile-img" />
@@ -99,23 +99,23 @@
 
   <main>
     <section class="section feature-grid" id="about">
-      <div class="section-title">
+      <div class="section-title reveal">
         <h2 data-i18n="about_title">درباره من</h2>
         <p data-i18n="about_desc">ترکیبی از مهندسی دقیق و هوش مصنوعی برای ساخت سیستم‌های هوشمند و قابل اتکا.</p>
       </div>
 
       <div class="grid-3">
-        <div class="card">
+        <div class="card reveal">
           <i class="ri-robot-2-line icon"></i>
           <h3 data-i18n="about_1_title">رباتیک پیشرفته</h3>
           <p data-i18n="about_1_desc">طراحی مکانیزم، کنترل تطبیقی و اجرای هوشمند در محیط‌های واقعی.</p>
         </div>
-        <div class="card">
+        <div class="card reveal">
           <i class="ri-eye-2-line icon"></i>
           <h3 data-i18n="about_2_title">بینایی ماشین</h3>
           <p data-i18n="about_2_desc">تحلیل و ادراک تصویری با شبکه‌های عصبی عمیق.</p>
         </div>
-        <div class="card">
+        <div class="card reveal">
           <i class="ri-circuit-line icon"></i>
           <h3 data-i18n="about_3_title">طراحی سیستم</h3>
           <p data-i18n="about_3_desc">ترکیب الکترونیک، نرم‌افزار و مکانیک با معماری پایدار.</p>
@@ -124,12 +124,25 @@
     </section>
 
     <section class="section skills" id="skills">
-      <div class="section-title">
+      <div class="section-title reveal">
         <h2 data-i18n="skills_title">مهارت‌ها</h2>
         <p data-i18n="skills_desc">توانمندی‌های کلیدی در مهندسی مکاترونیک و یادگیری عمیق</p>
       </div>
 
-      <div class="skills-grid">
+      <div class="skills-art reveal">
+        <svg class="dot-word" viewBox="0 0 900 200" aria-hidden="true">
+          <defs>
+            <pattern id="dotPattern" x="0" y="0" width="12" height="12" patternUnits="userSpaceOnUse">
+              <circle cx="3" cy="3" r="2.2" fill="rgba(140,255,203,0.9)"></circle>
+              <circle cx="9" cy="9" r="1.6" fill="rgba(108,158,255,0.9)"></circle>
+            </pattern>
+          </defs>
+          <text x="50%" y="60%" text-anchor="middle" class="dot-text">مهارت</text>
+          <text x="50%" y="60%" text-anchor="middle" class="dot-text filled">مهارت</text>
+        </svg>
+      </div>
+
+      <div class="skills-grid reveal">
         <div class="skill">
           <div class="skill-head">
             <span>Python / C++</span>
@@ -162,13 +175,13 @@
     </section>
 
     <section class="section showcase" id="projects">
-      <div class="section-title">
+      <div class="section-title reveal">
         <h2 data-i18n="projects_title">پروژه‌ها</h2>
         <p data-i18n="projects_desc">نمونه‌هایی از پروژه‌های هوشمند و صنعتی</p>
       </div>
 
       <div class="grid-3">
-        <a class="project-card" href="projects.html">
+        <a class="project-card reveal tilt" href="projects.html">
           <div class="project-thumb p1"></div>
           <div class="project-info">
             <h3 data-i18n="proj1_title">بازوی رباتیک هوشمند</h3>
@@ -177,7 +190,7 @@
           </div>
         </a>
 
-        <a class="project-card" href="projects.html">
+        <a class="project-card reveal tilt" href="projects.html">
           <div class="project-thumb p2"></div>
           <div class="project-info">
             <h3 data-i18n="proj2_title">سیستم تشخیص عیب</h3>
@@ -186,7 +199,7 @@
           </div>
         </a>
 
-        <a class="project-card" href="projects.html">
+        <a class="project-card reveal tilt" href="projects.html">
           <div class="project-thumb p3"></div>
           <div class="project-info">
             <h3 data-i18n="proj3_title">بینایی ماشین صنعتی</h3>
@@ -196,7 +209,7 @@
         </a>
       </div>
 
-      <div class="center">
+      <div class="center reveal">
         <a class="btn primary" href="projects.html">
           <i class="ri-external-link-line"></i>
           <span data-i18n="cta_more_projects">مشاهده همه پروژه‌ها</span>
@@ -204,28 +217,56 @@
       </div>
     </section>
 
+    <section class="section articles" id="articles">
+      <div class="section-title reveal">
+        <h2 data-i18n="articles_title">مقالات</h2>
+        <p data-i18n="articles_desc">انتشارهای پژوهشی در حوزه مکاترونیک و یادگیری عمیق</p>
+      </div>
+
+      <div class="grid-3">
+        <div class="card reveal">
+          <i class="ri-article-line icon"></i>
+          <h3 data-i18n="art1_title">کنترل تطبیقی در رباتیک صنعتی</h3>
+          <p data-i18n="art1_desc">مروری بر روش‌های نوین در کنترل پیشرفته ربات‌ها</p>
+          <span class="chip">2025</span>
+        </div>
+        <div class="card reveal">
+          <i class="ri-article-line icon"></i>
+          <h3 data-i18n="art2_title">شبکه‌های عصبی عمیق در تشخیص عیب</h3>
+          <p data-i18n="art2_desc">تحلیل مدل‌های CNN برای سیستم‌های صنعتی</p>
+          <span class="chip">2024</span>
+        </div>
+        <div class="card reveal">
+          <i class="ri-article-line icon"></i>
+          <h3 data-i18n="art3_title">بینایی ماشین بلادرنگ</h3>
+          <p data-i18n="art3_desc">بهینه‌سازی تشخیص کیفیت با معماری سبک</p>
+          <span class="chip">2023</span>
+        </div>
+      </div>
+    </section>
+
     <section class="section timeline" id="experience">
-      <div class="section-title">
+      <div class="section-title reveal">
         <h2 data-i18n="exp_title">مسیر حرفه‌ای</h2>
         <p data-i18n="exp_desc">گام‌های کلیدی و پروژه‌های تاثیرگذار</p>
       </div>
 
       <div class="timeline-list">
-        <div class="timeline-item">
+        <div class="timeline-item reveal">
           <span class="dot"></span>
           <div>
             <h3 data-i18n="exp1_title">طراحی سیستم رباتیک خودکار</h3>
             <p data-i18n="exp1_desc">پیاده‌سازی کنترلر تطبیقی و پایدار برای محیط‌های صنعتی.</p>
           </div>
         </div>
-        <div class="timeline-item">
+        <div class="timeline-item reveal">
           <span class="dot"></span>
           <div>
             <h3 data-i18n="exp2_title">مدل تشخیص نقص با CNN</h3>
             <p data-i18n="exp2_desc">افزایش دقت تشخیص تا 98% با معماری سفارشی.</p>
           </div>
         </div>
-        <div class="timeline-item">
+        <div class="timeline-item reveal">
           <span class="dot"></span>
           <div>
             <h3 data-i18n="exp3_title">بهینه‌سازی خط تولید با داده</h3>
@@ -236,19 +277,46 @@
     </section>
 
     <section class="section cta" id="contact">
-      <div class="cta-box">
+      <div class="cta-box reveal">
         <h2 data-i18n="contact_title">برای همکاری آماده‌ام</h2>
         <p data-i18n="contact_desc">اگر پروژه‌ای در حوزه مکاترونیک یا هوش مصنوعی دارید، خوشحال می‌شوم همکاری کنیم.</p>
-        <div class="cta-actions">
-          <a class="btn primary" href="mailto:youremail@example.com">
-            <i class="ri-mail-send-line"></i>
-            <span data-i18n="contact_email">ارسال ایمیل</span>
-          </a>
-          <a class="btn ghost" href="https://linkedin.com" target="_blank">
-            <i class="ri-linkedin-fill"></i>
-            <span data-i18n="contact_linkedin">لینکدین</span>
-          </a>
-        </div>
+
+        <form class="smart-form" id="contactForm">
+          <div class="form-row">
+            <div class="field">
+              <label data-i18n="form_name">نام</label>
+              <input type="text" name="name" placeholder="Shervin Rastegar" required />
+            </div>
+            <div class="field">
+              <label data-i18n="form_email">ایمیل</label>
+              <input type="email" name="email" placeholder="you@email.com" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label data-i18n="form_telegram">تلگرام</label>
+              <input type="text" name="telegram" placeholder="@telegram_id" />
+            </div>
+            <div class="field">
+              <label data-i18n="form_instagram">اینستاگرام</label>
+              <input type="text" name="instagram" placeholder="@instagram_id" />
+            </div>
+          </div>
+
+          <div class="field">
+            <label data-i18n="form_message">پیام</label>
+            <textarea name="message" rows="4" maxlength="500" required></textarea>
+            <div class="char-count"><span id="charCount">0</span>/500</div>
+          </div>
+
+          <button class="btn primary" type="submit">
+            <i class="ri-send-plane-2-line"></i>
+            <span data-i18n="form_submit">ارسال پیام</span>
+          </button>
+
+          <div class="form-status" id="formStatus"></div>
+        </form>
       </div>
     </section>
   </main>
