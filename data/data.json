@@ -83,7 +83,7 @@
         "en": "Projects",
         "fa": "پروژه‌ها"
       },
-      "value": "40+"
+      "value": "20+"
     },
     {
       "label": {
@@ -97,7 +97,14 @@
         "en": "Awards",
         "fa": "افتخارات"
       },
-      "value": "10"
+      "value": "4"
+    },
+    {
+      "label": {
+        "en": "Articles",
+        "fa": "مقاله ها "
+      },
+      "value": "2"
     }
   ],
   "skills": [
@@ -106,7 +113,7 @@
         "en": "Deep Learning",
         "fa": "دیپ‌ لرنینگ"
       },
-      "level": "92%"
+      "level": "70%"
     },
     {
       "name": {
@@ -124,10 +131,10 @@
     },
     {
       "name": {
-        "en": "Embedded Systems",
-        "fa": "سیستم‌های امبدد"
+        "en": "PLC Programming",
+        "fa": "برنامه نویسی PLC"
       },
-      "level": "70%"
+      "level": "85%"
     },
     {
       "name": {
@@ -161,25 +168,40 @@
         "en": "University of isfahan",
         "fa": "دانشگاه اصفهان"
       },
-      "period": "2021-2023",
+      "period": "2027-2029",
       "desc": {
-        "en": "Thesis: Intelligent Robotics",
-        "fa": "پایان‌نامه: رباتیک هوشمند"
+        "en": "On the path to the future",
+        "fa": "در مسیر آینده"
       }
     },
     {
       "title": {
         "en": "BSc in Mechatronics Engineering",
+        "fa": "کارشناسی مهندسی مکاترونیک"
+      },
+      "place": {
+        "en": "Isfahan National Skill University",
+        "fa": "دانشگاه ملی مهات اصفهان"
+      },
+      "period": "2026-2027",
+      "desc": {
+        "en": "Industrial mechatronics",
+        "fa": "مکاترونیک صنعتی"
+      }
+    },
+    {
+      "title": {
+        "en": "Associate's Degree in Mechatronics ",
         "fa": "کاردانی مهندسی مکاترونیک"
       },
       "place": {
-        "en": "University of Esfahan",
+        "en": "Isfahan National Skill University",
         "fa": "دانشگاه ملی مهات اصفهان"
       },
-      "period": "2023-2025",
+      "period": "2024-2025",
       "desc": {
-        "en": "Specialization in automation systems.",
-        "fa": "گرایش سیستم‌های اتوماسیون."
+        "en": "Industrial mechatronics",
+        "fa": "مکاترونیک صنعتی"
       }
     },
     {
@@ -191,7 +213,7 @@
         "en": "Enghlab High School",
         "fa": "هنرستان انقلاب اسلامی"
       },
-      "period": "2019-2022",
+      "period": "2020-2023",
       "desc": {
         "en": "Mechatronics",
         "fa": "مکاترونیک"
@@ -200,8 +222,8 @@
   ],
   "languages": [
     {
-      "name": "English (IELTS 7.5)",
-      "score": "8"
+      "name": "English (IELTS 6.5)",
+      "score": "6"
     },
     {
       "name": "Persian (Native)",
@@ -209,7 +231,7 @@
     },
     {
       "name": "German (A2)",
-      "score": "4"
+      "score": "5"
     }
   ],
   "articles": [
