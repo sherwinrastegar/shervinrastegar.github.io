@@ -63,8 +63,8 @@
   "profile": {
     "avatar": "assets/media/photo18721342355.jpg",
     "role": {
-      "en": "AI & Mechatronics Engineer",
-      "fa": "مهندس مکاترونیک و هوش مصنوعی"
+      "en": "AI & Mechatronics Engineer , Smart industries",
+      "fa": " مهندس مکاترونیک و هوش مصنوعی ، هوشمند سازی صنایع"
     }
   },
   "about": {
@@ -73,8 +73,10 @@
       "fa": "درباره من"
     },
     "text": {
-      "en": "I build intelligent mechatronic systems, blending mechanics, electronics, and deep learning for real-world impact. Experienced in robotics, embedded systems, and AI product development.",
-      "fa": "سیستم‌های مکاترونیکی هوشمند می‌سازم و مکانیک، الکترونیک و دیپ‌لرنینگ را برای اثر واقعی ترکیب می‌کنم. تجربه گسترده در رباتیک، امبدد و توسعه محصول هوش مصنوعی دارم."
+      "en": "With a strong foundation in Mechatronics and advanced expertise in Machine Learning and Deep Learning, I drive the intelligence of automation and industrial systems. I believe the future is deliberately shaped by artificial intelligence, under the thoughtful guidance of human vision.",
+      "fa": "من با تکیه بر نگاه عمیق فنی و تخصص مکاترونیک خود و با کمک یادگیری ماشین و یادگیری عمیق، به هوشمندسازی اتوماسیون و صنایع می‌پردازم.
+
+باور دارم که آینده، نه به‌صورت تصادفی، بلکه با قدرت هوش مصنوعی و هدایت آگاهانه انسان‌ها شکل خواهد گرفت.."
     }
   },
   "stats": [
@@ -158,8 +160,8 @@
         "fa": "کارشناسی ارشد مکاترونیک"
       },
       "place": {
-        "en": "University of X",
-        "fa": "دانشگاه X"
+        "en": "University of isfahan",
+        "fa": "دانشگاه اصفهان"
       },
       "period": "2021-2023",
       "desc": {
@@ -170,7 +172,7 @@
     {
       "title": {
         "en": "BSc in Mechatronics Engineering",
-        "fa": "کارشناسی مهندسی مکاترونیک"
+        "fa": "کاردانی مهندسی مکاترونیک"
       },
       "place": {
         "en": "University of Esfahan",
@@ -367,8 +369,8 @@
         "fa": "گالری پروژه‌ها"
       },
       "subtitle": {
-        "en": "Luxury media gallery with images and videos.",
-        "fa": "گالری لوکس با تصویر و ویدئو."
+        "en": "My Projrcts gallery with images and videos.",
+        "fa": "گالری پروژه های من با تصویر و ویدئو."
       }
     }
   }
